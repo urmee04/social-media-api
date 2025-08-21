@@ -55,7 +55,7 @@ social-media-api/
 ---
 #### Reflection Questions
 
-**Why is it important to whitelist IP addresses in a real-world production environment? What are the risks of allowing connections from anywhere (0.0.0.0/0)?**
+1. **Why is it important to whitelist IP addresses in a real-world production environment? What are the risks of allowing connections from anywhere (0.0.0.0/0)?**
 
 Whitelisting IP addresses is crucial for enhancing the security of a production environment. Here are the reasons and associated risks:
 
@@ -67,7 +67,7 @@ Whitelisting IP addresses is crucial for enhancing the security of a production 
 
 - `Monitoring and Auditing`: With a whitelist in place, it's easier to monitor and audit access logs. We can quickly identify unauthorized access attempts and take appropriate action.
 
-**What is the purpose of the dotenv package? What other methods could you use to manage environment variables in a production environment (e.g., in a cloud hosting service)?**
+2. **What is the purpose of the dotenv package? What other methods could you use to manage environment variables in a production environment (e.g., in a cloud hosting service)?**
 
 The `dotenv` package is used to load environment variables from a .env file into process.env in Node.js applications. This allows developers to manage configuration settings and sensitive information (like API keys, database credentials, etc.) without hardcoding them into the source code.
 
@@ -81,7 +81,7 @@ Other Methods to Manage Environment Variables:
 
 - `Environment-Specific Configuration Files`: Instead of using a .env file, we can have different configuration files for different environments (e.g., config.production.json, config.development.json) and load them based on the environment.
 
-**If your application failed to connect, what are the first few steps you would take to debug the issue?**
+3. **If your application failed to connect, what are the first few steps you would take to debug the issue?**
 
 - `Check Network Connectivity`: Ensure that the server hosting the application has network connectivity. We can use tools like ping or traceroute to verify connectivity to the database or external services.
 
