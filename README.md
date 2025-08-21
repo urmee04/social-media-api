@@ -1,5 +1,6 @@
 ### Lab 13.1: Connecting a Database
 This project establishes the core infrastructure for a new social media platform by setting up a production-ready MongoDB database on Atlas and creating a Node.js/Express application that connects to it securely.
+
 ---
 
 #### Features
@@ -93,3 +94,10 @@ Other Methods to Manage Environment Variables:
 - `Firewall and Security Groups`: Check if there are any firewall rules or security group settings that might be blocking the connection. Ensure that the necessary ports are open and accessible.
 
 - `Check Service Status`: Verify that the service you are trying to connect to (e.g., database, API) is running and available. Sometimes, the service might be down for maintenance or experiencing issues.
+
+#### References
+To complete the SBA, I primarily used the code examples from the lessons and also consulted the following resources to understand the process flow.
+
+- [mongodb](https://generalmotors.udemy.com/course/nodejs-express-mongodb-bootcamp/learn/lecture/15065024#overview)
+
+- [protecting keys](https://www.twilio.com/en-us/blog/working-with-environment-variables-in-node-js-html)
