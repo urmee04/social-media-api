@@ -57,7 +57,7 @@ social-media-api/
 
 1. **Why is it important to whitelist IP addresses in a real-world production environment? What are the risks of allowing connections from anywhere (0.0.0.0/0)?**
 
-Whitelisting IP addresses is crucial for enhancing the security of a production environment. Here are the reasons and associated risks:
+   Whitelisting IP addresses is crucial for enhancing the security of a production environment. Here are the reasons and associated risks:
 
 - `Security`: Whitelisting restricts access to only known and trusted IP addresses, reducing the attack surface. This helps prevent unauthorized access and potential data breaches.
 
@@ -69,9 +69,9 @@ Whitelisting IP addresses is crucial for enhancing the security of a production 
 
 2. **What is the purpose of the dotenv package? What other methods could you use to manage environment variables in a production environment (e.g., in a cloud hosting service)?**
 
-The `dotenv` package is used to load environment variables from a .env file into process.env in Node.js applications. This allows developers to manage configuration settings and sensitive information (like API keys, database credentials, etc.) without hardcoding them into the source code.
+   The `dotenv` package is used to load environment variables from a .env file into process.env in Node.js applications. This allows developers to manage configuration settings and sensitive information (like API keys,    database credentials, etc.) without hardcoding them into the source code.
 
-Other Methods to Manage Environment Variables:
+   Other Methods to Manage Environment Variables:
 
 - `Cloud Provider Configuration`: Many cloud hosting services (like AWS, Azure, Google Cloud) provide built-in mechanisms to manage environment variables securely through their management consoles.
 
